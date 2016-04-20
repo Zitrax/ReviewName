@@ -1,0 +1,7 @@
+Author = Daniel Bengtsson
+Description = Prefills the Create Review page with name and summary
+
+[Inject createreview*]
+Description = Prefill name and summary
+Script = inject.js
+Function = create_review
